@@ -28,12 +28,13 @@ html {
 .card {
   border: 10px solid $grey-light;
   width:500px;
-  box-sizing:border-box;
+  box-sizing:content-box;
 }
 
 .card-header {
   background-color: $light;
   padding:25px 5px 20px 25px;
+  box-sizing:border-box;
 }
 
 .card .content {
